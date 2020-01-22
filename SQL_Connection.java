@@ -12,9 +12,9 @@ public class SQL_Connection {
 	{
 		
 		
-		String user = "root";
-		String password = "1234";
-		String dburl = "jdbc:mysql://localhost:3306/loginuser";
+		String user = "rooot";
+		String password = "123";
+		String dburl = "jdbc:mysql://localhost:3306/login";
 		
 		// connect to database
 		myConn = DriverManager.getConnection(dburl, user, password);
